@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JH7sevens book</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header class="cabeçalho">
+        </li>
+      </ul>
+      <img src="img/Logo.png" alt="Logo da Alurabooks" class="container__imagem">
+    </div>
+    <div class="container">
+  </header>
+
+  <section class="carrossel">
+    <h2 class="carrossel__titulo">albuns</h2>
+    <!-- Slider main container -->
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide"><img src="img/liderança.png"
+            alt="Livro sobre apache kafka e spring boot da alura books"></div>
+        <div class="swiper-slide"><img src="img/Javascript.png.jpg"
+            alt="Livro sobre liderança em design design da alura books"></div>
+        <div class="swiper-slide"><img src="img/Apachekafka.png" alt="Livro sobre javascript assertivo da alura books">
+        </div>
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+
+    </div>
+
+    <div class="card">
+      <div class="card__descrição">
+        <div class="descrição">
+          <h3 class="descrição__titulo">conheça outro rapper</h3>
+          <h2 class="descrição__titulo-livro">50cent</h2>
+          <p class="descrição__texto">assim como tupac 50cent é um rapper mundialmente conhecido.
+          </p>
+        </div>
+        <img src="img/50cent.jpg" class="descrição__imagem" />
+      </div>
+      <div class="card__botões">
+        <ul class="botões">
+          <li class="botões__item">
+        </ul>
+        <a href="#" class="botões__ancora">escute uma do 50cent </a>
+      </div>
+    </div>
+
+  </section>
+
+  <section class=”carrossel”>
+    <h2 class="carrossel__titulo">principais musicas  do pac </h2>
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide"><img src="img/So Many Tears.jpg"
+            alt="Livro sobre apache kafka e spring boot da alura books"></div>
+        <div class="swiper-slide"><img src="img/Dear mama.jpg" alt="Livro sobre liderança em design da alura books">
+        </div>
+        <div class="swiper-slide"><img src="img/2 Of Amerikaz Most Wanted.jpg" alt="Livro sobre javascript assertivo da alurabooks">
+        </div>
+        <div class="swiper-slide"><img src="img/Keep Ya Head Up.jpg" alt="Livro Guia front end"></div>
+        <div class="swiper-slide"><img src="img/Ambitionz Az A Ridah.jpg" alt="Livro sobre portugol"></div>
+        <div class="swiper-slide"><img src="img/Changes.jpg" alt="livro sobre acessibilidade"></div>
+      </div>
+
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+
+    <div class="card">
+      <!-- 1º linha -->
+      <div class="card__descrição">
+        <!-- 1º coluna -->
+        <div class="descrição">
+          <img src="img/Estrelinhas.svg" alt="Avaliação 5 estrelas">
+          <h3 class="descrição__titulo"> </h3>
+          <h2 class="descrição__titulo-livro">tupac</h2>
+          <p class="descrição__texto">rapper conhecido mundialmende e considerado o maior e melhor rapper ja existente
+          </p>
+        </div>
+        <!-- 2º coluna -->
+        <img src="img/Escritora.png" class="descrição__imagem">
+      </div>
+
+      <!-- 2º linha -->
+      <div class="card__botões">
+        <!-- 1º coluna --><a href="https://www.youtube.com/watch?v=H1HdZFgR-aA" class="botões__ancora">escute uma do pac </a>
+        </ul>
+        <!-- 2º coluna -->
+        <a href="https://pt.wikipedia.org/wiki/Tupac_Shakur" class="botões__ancora">se informe mais </a>
+      </div>
+      
+    </div>
+
+
+
+  </section>
+  </section>
+
+  <section class="contato">
+    <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+    <p class="contato__texto"> venha conher mais rapper dos anos 2000
+    </p>
+    <input type="email" placeholder="Cadastre seu e-mail" class="contato__email" />
+  </section>
+
+  <hr />
+
+  <footer class="rodapé">
+    <h2 class="rodapé__titulo">grupo seven</h2>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper(".swiper", {
+      spaceBetween: 10,
+      slidesPerView: 3,
+      pagination: {
+        el: ".swiper-pagination",
+        type: "bullets",
+      },
+    });
+  </script>
+</body>
+
+</html>
