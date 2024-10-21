@@ -6,8 +6,8 @@
 @import url("styles/rodapé.css");
 
 :root {
-    --cor-de-fundo: #00000;
-    --preto: #00000;
+    --cor-de-fundo: #0000000;
+    --preto: #0000000;
     --azul:#00009C;
     --azul-degrade: linear-gradient(97.54deg, #002f52 35.49%, #326589 165.37%);
     --fonte-principal: "graffit";
